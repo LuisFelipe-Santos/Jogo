@@ -1,4 +1,4 @@
-Projeto realizado durante o curso Programação em Python do básico ao avançado - Geek University
+Projeto realizado durante o curso Programação em Python do básico ao avançado - Geek University.
 
 Projeto 1 - Game
 Descrição:
