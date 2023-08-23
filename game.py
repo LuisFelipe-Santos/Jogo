@@ -11,7 +11,7 @@ def jogar(pontos: int) -> None:
 
     calc: Calcular = Calcular(dificuldade)
 
-    print('Informe o resultado da seguinte operação:')
+    print('Informe o resultado da seguinte operação: ')
     calc.mostrar_operacao()
 
     resultado: int = int(input())
