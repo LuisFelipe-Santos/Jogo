@@ -79,7 +79,7 @@ class Calcular:
             print('Resposta correta!')
             certo = True
         else:
-            print('Resposta incorreta!')
+            print('Resposta errada!')
         print(f'{self.valor1} {self._op_simbolo} {self.valor2} = {self.resultado}')
         return certo
 
