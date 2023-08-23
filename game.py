@@ -7,11 +7,11 @@ def main() -> None:
 
 
 def jogar(pontos: int) -> None:
-    dificuldade: int = int(input('Informe o nivel de dificuldade desejado [1, 2, 3 ou 4]: '))
+    dificuldade: int = int(input('Informe o nível de dificuldade desejado [1, 2, 3 ou 4]: '))
 
     calc: Calcular = Calcular(dificuldade)
 
-    print('Informe o resultado para a seguinte operação: ')
+    print('Informe o resultado da seguinte operação:')
     calc.mostrar_operacao()
 
     resultado: int = int(input())

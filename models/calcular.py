@@ -38,7 +38,7 @@ class Calcular:
         elif self.operacao == 3:
             op = 'Multiplicar'
         else:
-            op = 'Operação desconhecida'
+            op = 'Operação desconhecida.'
         return f'Valor 1: {self.valor1} \nValor 2: {self.valor2} \nDificuldade: {self.dificuldade} \nOperação: {op}'
 
     @property
