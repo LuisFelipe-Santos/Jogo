@@ -7,9 +7,10 @@ class Jogo:
 
     @staticmethod
     def mensagem() -> None:
-        print('\nBem-vindo!\nEste é um mini jogo para testar suas habilidades em matemática.\nPrimeiro será '
-              'necessário selecionar a dificuldade do jogo e após isso gera e apresenta, de forma aletaória, '
-              'um cálculo que você terá que resolver.')
+        print(
+            "\nBem-vindo!\nEste é um mini jogo para testar suas habilidades em matemática.\nPrimeiro, "
+            "escolha a dificuldade do jogo e, em seguida, resolva o cálculo gerado aleatoriamente. "
+            "terá que resolver.")
 
     def run(self):
         self.mensagem()
