@@ -34,7 +34,7 @@ class Jogo:
     def obter_dificuldade():
         while True:
             try:
-                dificuldade = int(input('Informe o nível de dificuldade desejado [1, 2, 3 ou 4]: '))
+                dificuldade = int(input('\nInforme o nível de dificuldade desejado [1, 2, 3 ou 4]: '))
                 if dificuldade in [1, 2, 3, 4]:
                     return dificuldade
                 else:
@@ -65,7 +65,7 @@ class Jogo:
 
     def continuar_jogando(self):
         while True:
-            continuar = input('Deseja continuar no jogo? [Sim, Não] \nResposta: ').strip()
+            continuar = input('\nDeseja continuar jogando? [Sim, Não]: ').strip()
 
             if continuar.lower() in ['sim', 's', 'ss', 'si']:
                 return True
